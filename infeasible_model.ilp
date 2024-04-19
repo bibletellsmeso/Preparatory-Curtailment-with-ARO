@@ -1,0 +1,654 @@
+\ Model SP_primal_LP_gurobi_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ c_cost_PV_curt_pos[68]: - 0.08 y_curt_PV[68] + y_cost_curt_PV[68] = 0
+ c_cost_PV_curt_pos[69]: - 0.08 y_curt_PV[69] + y_cost_curt_PV[69] = 0
+ c_cost_PV_curt_pos[70]: - 0.08 y_curt_PV[70] + y_cost_curt_PV[70] = 0
+ c_cost_PV_curt_pos[71]: - 0.08 y_curt_PV[71] + y_cost_curt_PV[71] = 0
+ c_cost_PV_curt_pos[72]: - 0.08 y_curt_PV[72] + y_cost_curt_PV[72] = 0
+ c_cost_PV_curt_pos[73]: - 0.08 y_curt_PV[73] + y_cost_curt_PV[73] = 0
+ c_cost_PV_curt_pos[74]: - 0.08 y_curt_PV[74] + y_cost_curt_PV[74] = 0
+ c_cost_PV_curt_pos[75]: - 0.08 y_curt_PV[75] + y_cost_curt_PV[75] = 0
+ c_cost_PV_curt_pos[76]: - 0.08 y_curt_PV[76] + y_cost_curt_PV[76] = 0
+ c_cost_PV_curt_pos[77]: - 0.08 y_curt_PV[77] + y_cost_curt_PV[77] = 0
+ c_cost_PV_curt_pos[78]: - 0.08 y_curt_PV[78] + y_cost_curt_PV[78] = 0
+ c_cost_PV_curt_pos[79]: - 0.08 y_curt_PV[79] + y_cost_curt_PV[79] = 0
+ c_cost_PV_curt_pos[80]: - 0.08 y_curt_PV[80] + y_cost_curt_PV[80] = 0
+ c_cost_PV_curt_pos[81]: - 0.08 y_curt_PV[81] + y_cost_curt_PV[81] = 0
+ c_cost_PV_curt_pos[82]: - 0.08 y_curt_PV[82] + y_cost_curt_PV[82] = 0
+ c_cost_PV_curt_pos[83]: - 0.08 y_curt_PV[83] + y_cost_curt_PV[83] = 0
+ c_cost_PV_curt_pos[84]: - 0.08 y_curt_PV[84] + y_cost_curt_PV[84] = 0
+ c_cost_PV_curt_pos[85]: - 0.08 y_curt_PV[85] + y_cost_curt_PV[85] = 0
+ c_cost_PV_curt_pos[86]: - 0.08 y_curt_PV[86] + y_cost_curt_PV[86] = 0
+ c_cost_PV_curt_pos[87]: - 0.08 y_curt_PV[87] + y_cost_curt_PV[87] = 0
+ c_cost_PV_curt_pos[88]: - 0.08 y_curt_PV[88] + y_cost_curt_PV[88] = 0
+ c_cost_PV_curt_pos[89]: - 0.08 y_curt_PV[89] + y_cost_curt_PV[89] = 0
+ c_cost_PV_curt_pos[90]: - 0.08 y_curt_PV[90] + y_cost_curt_PV[90] = 0
+ c_cost_PV_curt_pos[91]: - 0.08 y_curt_PV[91] + y_cost_curt_PV[91] = 0
+ c_cost_PV_curt_pos[92]: - 0.08 y_curt_PV[92] + y_cost_curt_PV[92] = 0
+ c_cost_PV_curt_pos[93]: - 0.08 y_curt_PV[93] + y_cost_curt_PV[93] = 0
+ c_cost_PV_curt_pos[94]: - 0.08 y_curt_PV[94] + y_cost_curt_PV[94] = 0
+ c_cost_PV_curt_pos[95]: - 0.08 y_curt_PV[95] + y_cost_curt_PV[95] = 0
+ c_cost_WT_curt_pos[68]: - 0.07 y_curt_WT[68] + y_cost_curt_WT[68] = 0
+ c_cost_WT_curt_pos[69]: - 0.07 y_curt_WT[69] + y_cost_curt_WT[69] = 0
+ c_cost_WT_curt_pos[70]: - 0.07 y_curt_WT[70] + y_cost_curt_WT[70] = 0
+ c_cost_WT_curt_pos[71]: - 0.07 y_curt_WT[71] + y_cost_curt_WT[71] = 0
+ c_cost_WT_curt_pos[72]: - 0.07 y_curt_WT[72] + y_cost_curt_WT[72] = 0
+ c_cost_WT_curt_pos[73]: - 0.07 y_curt_WT[73] + y_cost_curt_WT[73] = 0
+ c_cost_WT_curt_pos[74]: - 0.07 y_curt_WT[74] + y_cost_curt_WT[74] = 0
+ c_cost_WT_curt_pos[75]: - 0.07 y_curt_WT[75] + y_cost_curt_WT[75] = 0
+ c_cost_WT_curt_pos[76]: - 0.07 y_curt_WT[76] + y_cost_curt_WT[76] = 0
+ c_cost_WT_curt_pos[77]: - 0.07 y_curt_WT[77] + y_cost_curt_WT[77] = 0
+ c_cost_WT_curt_pos[78]: - 0.07 y_curt_WT[78] + y_cost_curt_WT[78] = 0
+ c_cost_WT_curt_pos[79]: - 0.07 y_curt_WT[79] + y_cost_curt_WT[79] = 0
+ c_cost_WT_curt_pos[80]: - 0.07 y_curt_WT[80] + y_cost_curt_WT[80] = 0
+ c_cost_WT_curt_pos[81]: - 0.07 y_curt_WT[81] + y_cost_curt_WT[81] = 0
+ c_cost_WT_curt_pos[82]: - 0.07 y_curt_WT[82] + y_cost_curt_WT[82] = 0
+ c_cost_WT_curt_pos[83]: - 0.07 y_curt_WT[83] + y_cost_curt_WT[83] = 0
+ c_cost_WT_curt_pos[84]: - 0.07 y_curt_WT[84] + y_cost_curt_WT[84] = 0
+ c_cost_WT_curt_pos[85]: - 0.07 y_curt_WT[85] + y_cost_curt_WT[85] = 0
+ c_cost_WT_curt_pos[86]: - 0.07 y_curt_WT[86] + y_cost_curt_WT[86] = 0
+ c_cost_WT_curt_pos[87]: - 0.07 y_curt_WT[87] + y_cost_curt_WT[87] = 0
+ c_cost_WT_curt_pos[88]: - 0.07 y_curt_WT[88] + y_cost_curt_WT[88] = 0
+ c_cost_WT_curt_pos[89]: - 0.07 y_curt_WT[89] + y_cost_curt_WT[89] = 0
+ c_cost_WT_curt_pos[90]: - 0.07 y_curt_WT[90] + y_cost_curt_WT[90] = 0
+ c_cost_WT_curt_pos[91]: - 0.07 y_curt_WT[91] + y_cost_curt_WT[91] = 0
+ c_cost_WT_curt_pos[92]: - 0.07 y_curt_WT[92] + y_cost_curt_WT[92] = 0
+ c_cost_WT_curt_pos[93]: - 0.07 y_curt_WT[93] + y_cost_curt_WT[93] = 0
+ c_cost_WT_curt_pos[94]: - 0.07 y_curt_WT[94] + y_cost_curt_WT[94] = 0
+ c_cost_WT_curt_pos[95]: - 0.07 y_curt_WT[95] + y_cost_curt_WT[95] = 0
+ c_reserve_pos_DE1[68]: p_pos_1[68] <= 100
+ c_reserve_pos_DE1[69]: p_pos_1[69] <= 100
+ c_reserve_pos_DE1[70]: p_pos_1[70] <= 100
+ c_reserve_pos_DE1[71]: p_pos_1[71] <= 100
+ c_reserve_pos_DE1[72]: p_pos_1[72] <= 100
+ c_reserve_pos_DE1[73]: p_pos_1[73] <= 100
+ c_reserve_pos_DE1[74]: p_pos_1[74] <= 100
+ c_reserve_pos_DE1[75]: p_pos_1[75] <= 100
+ c_reserve_pos_DE1[76]: p_pos_1[76] <= 100
+ c_reserve_pos_DE1[77]: p_pos_1[77] <= 100
+ c_reserve_pos_DE1[78]: p_pos_1[78] <= 100
+ c_reserve_pos_DE1[79]: p_pos_1[79] <= 100
+ c_reserve_pos_DE1[80]: p_pos_1[80] <= 100
+ c_reserve_pos_DE1[81]: p_pos_1[81] <= 100
+ c_reserve_pos_DE1[82]: p_pos_1[82] <= 100
+ c_reserve_pos_DE1[83]: p_pos_1[83] <= 100
+ c_reserve_pos_DE1[84]: p_pos_1[84] <= 100
+ c_reserve_pos_DE1[85]: p_pos_1[85] <= 100
+ c_reserve_pos_DE1[86]: p_pos_1[86] <= 100
+ c_reserve_pos_DE1[87]: p_pos_1[87] <= 100
+ c_reserve_pos_DE1[88]: p_pos_1[88] <= 100
+ c_reserve_pos_DE1[89]: p_pos_1[89] <= 100
+ c_reserve_pos_DE1[90]: p_pos_1[90] <= 100
+ c_reserve_pos_DE1[91]: p_pos_1[91] <= 100
+ c_reserve_pos_DE1[92]: p_pos_1[92] <= 100
+ c_reserve_pos_DE1[93]: p_pos_1[93] <= 100
+ c_reserve_pos_DE1[94]: p_pos_1[94] <= 100
+ c_reserve_pos_DE1[95]: p_pos_1[95] <= 100
+ c_max_S[67]: SoC[67] <= 453.6
+ c_ESS_re-dispatch[68]: - 0.2325 y_chg[68] + 0.2688172043010753 y_dis[68]
+   - SoC[67] + SoC[68] = 0
+ c_ESS_re-dispatch[69]: - 0.2325 y_chg[69] + 0.2688172043010753 y_dis[69]
+   - SoC[68] + SoC[69] = 0
+ c_ESS_re-dispatch[70]: - 0.2325 y_chg[70] + 0.2688172043010753 y_dis[70]
+   - SoC[69] + SoC[70] = 0
+ c_ESS_re-dispatch[71]: - 0.2325 y_chg[71] + 0.2688172043010753 y_dis[71]
+   - SoC[70] + SoC[71] = 0
+ c_ESS_re-dispatch[72]: - 0.2325 y_chg[72] + 0.2688172043010753 y_dis[72]
+   - SoC[71] + SoC[72] = 0
+ c_ESS_re-dispatch[73]: - 0.2325 y_chg[73] + 0.2688172043010753 y_dis[73]
+   - SoC[72] + SoC[73] = 0
+ c_ESS_re-dispatch[74]: - 0.2325 y_chg[74] + 0.2688172043010753 y_dis[74]
+   - SoC[73] + SoC[74] = 0
+ c_ESS_re-dispatch[75]: - 0.2325 y_chg[75] + 0.2688172043010753 y_dis[75]
+   - SoC[74] + SoC[75] = 0
+ c_ESS_re-dispatch[76]: - 0.2325 y_chg[76] + 0.2688172043010753 y_dis[76]
+   - SoC[75] + SoC[76] = 0
+ c_ESS_re-dispatch[77]: - 0.2325 y_chg[77] + 0.2688172043010753 y_dis[77]
+   - SoC[76] + SoC[77] = 0
+ c_ESS_re-dispatch[78]: - 0.2325 y_chg[78] + 0.2688172043010753 y_dis[78]
+   - SoC[77] + SoC[78] = 0
+ c_ESS_re-dispatch[79]: - 0.2325 y_chg[79] + 0.2688172043010753 y_dis[79]
+   - SoC[78] + SoC[79] = 0
+ c_ESS_re-dispatch[80]: - 0.2325 y_chg[80] + 0.2688172043010753 y_dis[80]
+   - SoC[79] + SoC[80] = 0
+ c_ESS_re-dispatch[81]: - 0.2325 y_chg[81] + 0.2688172043010753 y_dis[81]
+   - SoC[80] + SoC[81] = 0
+ c_ESS_re-dispatch[82]: - 0.2325 y_chg[82] + 0.2688172043010753 y_dis[82]
+   - SoC[81] + SoC[82] = 0
+ c_ESS_re-dispatch[83]: - 0.2325 y_chg[83] + 0.2688172043010753 y_dis[83]
+   - SoC[82] + SoC[83] = 0
+ c_ESS_re-dispatch[84]: - 0.2325 y_chg[84] + 0.2688172043010753 y_dis[84]
+   - SoC[83] + SoC[84] = 0
+ c_ESS_re-dispatch[85]: - 0.2325 y_chg[85] + 0.2688172043010753 y_dis[85]
+   - SoC[84] + SoC[85] = 0
+ c_ESS_re-dispatch[86]: - 0.2325 y_chg[86] + 0.2688172043010753 y_dis[86]
+   - SoC[85] + SoC[86] = 0
+ c_ESS_re-dispatch[87]: - 0.2325 y_chg[87] + 0.2688172043010753 y_dis[87]
+   - SoC[86] + SoC[87] = 0
+ c_ESS_re-dispatch[88]: - 0.2325 y_chg[88] + 0.2688172043010753 y_dis[88]
+   - SoC[87] + SoC[88] = 0
+ c_ESS_re-dispatch[89]: - 0.2325 y_chg[89] + 0.2688172043010753 y_dis[89]
+   - SoC[88] + SoC[89] = 0
+ c_ESS_re-dispatch[90]: - 0.2325 y_chg[90] + 0.2688172043010753 y_dis[90]
+   - SoC[89] + SoC[90] = 0
+ c_ESS_re-dispatch[91]: - 0.2325 y_chg[91] + 0.2688172043010753 y_dis[91]
+   - SoC[90] + SoC[91] = 0
+ c_ESS_re-dispatch[92]: - 0.2325 y_chg[92] + 0.2688172043010753 y_dis[92]
+   - SoC[91] + SoC[92] = 0
+ c_ESS_re-dispatch[93]: - 0.2325 y_chg[93] + 0.2688172043010753 y_dis[93]
+   - SoC[92] + SoC[93] = 0
+ c_ESS_re-dispatch[94]: - 0.2325 y_chg[94] + 0.2688172043010753 y_dis[94]
+   - SoC[93] + SoC[94] = 0
+ c_ESS_re-dispatch[95]: - 0.2325 y_chg[95] + 0.2688172043010753 y_dis[95]
+   - SoC[94] + SoC[95] = 0
+ c_ESS_last_period: SoC[95] = 187.5
+ c_y_PV[68]: y_PV[68] = 84.8882644347661
+ c_y_PV[69]: y_PV[69] = 94.78689519076796
+ c_y_PV[70]: y_PV[70] = 43.49398632080582
+ c_y_PV[71]: y_PV[71] = 48.29332289408057
+ c_y_PV[72]: y_PV[72] = 54.19038344912236
+ c_y_PV[73]: y_PV[73] = 51.40345070680846
+ c_y_PV[74]: y_PV[74] = 27.56730087906057
+ c_y_PV[75]: y_PV[75] = 10.70259921413382
+ c_y_PV[76]: y_PV[76] = 4.253557214205573
+ c_y_PV[77]: y_PV[77] = 0.327196707727678
+ c_y_PV[78]: y_PV[78] = 0.327196707727678
+ c_y_PV[79]: y_PV[79] = 0.327196707727678
+ c_y_PV[80]: y_PV[80] = 0.6561203166244328
+ c_y_PV[81]: y_PV[81] = 0.6561203166244328
+ c_y_PV[82]: y_PV[82] = 0.6561203166244328
+ c_y_PV[83]: y_PV[83] = 0.6561203166244328
+ c_y_PV[84]: y_PV[84] = 0.9919750536486832
+ c_y_PV[85]: y_PV[85] = 0.9919750536486832
+ c_y_PV[86]: y_PV[86] = 0.9919750536486832
+ c_y_PV[87]: y_PV[87] = 0.9919750536486832
+ c_y_PV[88]: y_PV[88] = 1.335850342840374
+ c_y_PV[89]: y_PV[89] = 1.335850342840374
+ c_y_PV[90]: y_PV[90] = 1.335850342840374
+ c_y_PV[91]: y_PV[91] = 1.335850342840374
+ c_y_PV[92]: y_PV[92] = 1.684855524090108
+ c_y_PV[93]: y_PV[93] = 1.684855524090108
+ c_y_PV[94]: y_PV[94] = 1.684855524090108
+ c_y_PV[95]: y_PV[95] = 1.684855524090108
+ c_y_WT[68]: y_WT[68] = 138.1847015714173
+ c_y_WT[69]: y_WT[69] = 138.2213188108427
+ c_y_WT[70]: y_WT[70] = 138.2579475596082
+ c_y_WT[71]: y_WT[71] = 138.2945647990335
+ c_y_WT[72]: y_WT[72] = 138.2419438082673
+ c_y_WT[73]: y_WT[73] = 138.4912755118233
+ c_y_WT[74]: y_WT[74] = 138.7406072153792
+ c_y_WT[75]: y_WT[75] = 138.9899504206486
+ c_y_WT[76]: y_WT[76] = 138.4923900024824
+ c_y_WT[77]: y_WT[77] = 138.3367577823411
+ c_y_WT[78]: y_WT[78] = 138.181137000547
+ c_y_WT[79]: y_WT[79] = 138.0255047804057
+ c_y_WT[80]: y_WT[80] = 137.2156905821853
+ c_y_WT[81]: y_WT[81] = 138.2458870502205
+ c_y_WT[82]: y_WT[82] = 139.2760835182556
+ c_y_WT[83]: y_WT[83] = 140.3062799862908
+ c_y_WT[84]: y_WT[84] = 140.8831410847618
+ c_y_WT[85]: y_WT[85] = 141.7523681346851
+ c_y_WT[86]: y_WT[86] = 142.6215799258194
+ c_y_WT[87]: y_WT[87] = 143.4907956306552
+ c_y_WT[88]: y_WT[88] = 144.6161022496049
+ c_y_WT[89]: y_WT[89] = 144.4210338850615
+ c_y_WT[90]: y_WT[90] = 144.2259655205182
+ c_y_WT[91]: y_WT[91] = 144.0309085217406
+ c_y_WT[92]: y_WT[92] = 144.2122258041521
+ c_y_WT[93]: y_WT[93] = 144.2122258041521
+ c_y_WT[94]: y_WT[94] = 144.2122258041521
+ c_y_WT[95]: y_WT[95] = 144.2122258041521
+ c_y_load[68]: y_load[68] = 529.2962358990077
+ c_y_load[69]: y_load[69] = 533.3128473295039
+ c_y_load[70]: y_load[70] = 530.3764367383719
+ c_y_load[71]: y_load[71] = 531.7309305437049
+ c_y_load[72]: y_load[72] = 517.9839007043844
+ c_y_load[73]: y_load[73] = 520.0841098687915
+ c_y_load[74]: y_load[74] = 521.7845585309791
+ c_y_load[75]: y_load[75] = 523.9057428475036
+ c_y_load[76]: y_load[76] = 509.3127006247469
+ c_y_load[77]: y_load[77] = 508.8261907993048
+ c_y_load[78]: y_load[78] = 509.0458356051523
+ c_y_load[79]: y_load[79] = 508.6023766810922
+ c_y_load[80]: y_load[80] = 495.8432260517137
+ c_y_load[81]: y_load[81] = 492.5617130425642
+ c_y_load[82]: y_load[82] = 492.9199718170913
+ c_y_load[83]: y_load[83] = 488.8097379359804
+ c_y_load[84]: y_load[84] = 475.491855323726
+ c_y_load[85]: y_load[85] = 471.2788125345895
+ c_y_load[86]: y_load[86] = 468.6333547686698
+ c_y_load[87]: y_load[87] = 464.325429797497
+ c_y_load[88]: y_load[88] = 452.5087058880391
+ c_y_load[89]: y_load[89] = 448.7840456393672
+ c_y_load[90]: y_load[90] = 442.8919402300191
+ c_y_load[91]: y_load[91] = 437.558355499705
+ c_y_load[92]: y_load[92] = 421.8453416203616
+ c_y_load[93]: y_load[93] = 416.2925795655869
+ c_y_load[94]: y_load[94] = 408.3842871037747
+ c_y_load[95]: y_load[95] = 398.2739035380226
+ c_pc[68]: y_pc[68] <= 0
+ c_pc[69]: y_pc[69] <= 0
+ c_pc[70]: y_pc[70] <= 0
+ c_pc[71]: y_pc[71] <= 0
+ c_pc[72]: y_pc[72] <= 0
+ c_pc[73]: y_pc[73] <= 0
+ c_pc[74]: y_pc[74] <= 0
+ c_pc[75]: y_pc[75] <= 0
+ c_pc[76]: y_pc[76] <= 0
+ c_pc[77]: y_pc[77] <= 0
+ c_pc[78]: y_pc[78] <= 0
+ c_pc[79]: y_pc[79] <= 0
+ c_pc[80]: y_pc[80] <= 0
+ c_pc[81]: y_pc[81] <= 0
+ c_pc[82]: y_pc[82] <= 0
+ c_pc[83]: y_pc[83] <= 0
+ c_pc[84]: y_pc[84] <= 0
+ c_pc[85]: y_pc[85] <= 0
+ c_pc[86]: y_pc[86] <= 0
+ c_pc[87]: y_pc[87] <= 0
+ c_pc[88]: y_pc[88] <= 0
+ c_pc[89]: y_pc[89] <= 0
+ c_pc[90]: y_pc[90] <= 0
+ c_pc[91]: y_pc[91] <= 0
+ c_pc[92]: y_pc[92] <= 0
+ c_pc[93]: y_pc[93] <= 0
+ c_pc[94]: y_pc[94] <= 0
+ c_pc[95]: y_pc[95] <= 0
+ c_wc[68]: y_wc[68] <= 0
+ c_wc[69]: y_wc[69] <= 0
+ c_wc[70]: y_wc[70] <= 0
+ c_wc[71]: y_wc[71] <= 0
+ c_wc[72]: y_wc[72] <= 0
+ c_wc[73]: y_wc[73] <= 0
+ c_wc[74]: y_wc[74] <= 0
+ c_wc[75]: y_wc[75] <= 0
+ c_wc[76]: y_wc[76] <= 0
+ c_wc[77]: y_wc[77] <= 0
+ c_wc[78]: y_wc[78] <= 0
+ c_wc[79]: y_wc[79] <= 0
+ c_wc[80]: y_wc[80] <= 0
+ c_wc[81]: y_wc[81] <= 0
+ c_wc[82]: y_wc[82] <= 0
+ c_wc[83]: y_wc[83] <= 0
+ c_wc[84]: y_wc[84] <= 0
+ c_wc[85]: y_wc[85] <= 0
+ c_wc[86]: y_wc[86] <= 0
+ c_wc[87]: y_wc[87] <= 0
+ c_wc[88]: y_wc[88] <= 0
+ c_wc[89]: y_wc[89] <= 0
+ c_wc[90]: y_wc[90] <= 0
+ c_wc[91]: y_wc[91] <= 0
+ c_wc[92]: y_wc[92] <= 0
+ c_wc[93]: y_wc[93] <= 0
+ c_wc[94]: y_wc[94] <= 0
+ c_wc[95]: y_wc[95] <= 0
+ c_power_balance_eq[68]: p_pos_1[68] - p_neg_1[68] - y_chg[68] + y_dis[68]
+   + y_PV[68] + y_WT[68] - y_curt_PV[68] - y_curt_WT[68] - y_load[68]
+   + y_pc[68] + y_wc[68] = -151.1533913993821
+ c_power_balance_eq[69]: p_pos_1[69] - p_neg_1[69] - y_chg[69] + y_dis[69]
+   + y_PV[69] + y_WT[69] - y_curt_PV[69] - y_curt_WT[69] - y_load[69]
+   + y_pc[69] + y_wc[69] = -150
+ c_power_balance_eq[70]: p_pos_1[70] - p_neg_1[70] - y_chg[70] + y_dis[70]
+   + y_PV[70] + y_WT[70] - y_curt_PV[70] - y_curt_WT[70] - y_load[70]
+   + y_pc[70] + y_wc[70] = -201.8729197416589
+ c_power_balance_eq[71]: p_pos_1[71] - p_neg_1[71] - y_chg[71] + y_dis[71]
+   + y_PV[71] + y_WT[71] - y_curt_PV[71] - y_curt_WT[71] - y_load[71]
+   + y_pc[71] + y_wc[71] = -197.5071200712947
+ c_power_balance_eq[72]: p_pos_1[72] - p_neg_1[72] - y_chg[72] + y_dis[72]
+   + y_PV[72] + y_WT[72] - y_curt_PV[72] - y_curt_WT[72] - y_load[72]
+   + y_pc[72] + y_wc[72] = -165
+ c_power_balance_eq[73]: p_pos_1[73] - p_neg_1[73] - y_chg[73] + y_dis[73]
+   + y_PV[73] + y_WT[73] - y_curt_PV[73] - y_curt_WT[73] - y_load[73]
+   + y_pc[73] + y_wc[73] = -165
+ c_power_balance_eq[74]: p_pos_1[74] - p_neg_1[74] - y_chg[74] + y_dis[74]
+   + y_PV[74] + y_WT[74] - y_curt_PV[74] - y_curt_WT[74] - y_load[74]
+   + y_pc[74] + y_wc[74] = -165
+ c_power_balance_eq[75]: p_pos_1[75] - p_neg_1[75] - y_chg[75] + y_dis[75]
+   + y_PV[75] + y_WT[75] - y_curt_PV[75] - y_curt_WT[75] - y_load[75]
+   + y_pc[75] + y_wc[75] = -165
+ c_power_balance_eq[76]: p_pos_1[76] - p_neg_1[76] - y_chg[76] + y_dis[76]
+   + y_PV[76] + y_WT[76] - y_curt_PV[76] - y_curt_WT[76] - y_load[76]
+   + y_pc[76] + y_wc[76] = -165
+ c_power_balance_eq[77]: p_pos_1[77] - p_neg_1[77] - y_chg[77] + y_dis[77]
+   + y_PV[77] + y_WT[77] - y_curt_PV[77] - y_curt_WT[77] - y_load[77]
+   + y_pc[77] + y_wc[77] = -165
+ c_power_balance_eq[78]: p_pos_1[78] - p_neg_1[78] - y_chg[78] + y_dis[78]
+   + y_PV[78] + y_WT[78] - y_curt_PV[78] - y_curt_WT[78] - y_load[78]
+   + y_pc[78] + y_wc[78] = -165
+ c_power_balance_eq[79]: p_pos_1[79] - p_neg_1[79] - y_chg[79] + y_dis[79]
+   + y_PV[79] + y_WT[79] - y_curt_PV[79] - y_curt_WT[79] - y_load[79]
+   + y_pc[79] + y_wc[79] = -165
+ c_power_balance_eq[80]: p_pos_1[80] - p_neg_1[80] - y_chg[80] + y_dis[80]
+   + y_PV[80] + y_WT[80] - y_curt_PV[80] - y_curt_WT[80] - y_load[80]
+   + y_pc[80] + y_wc[80] = -165
+ c_power_balance_eq[81]: p_pos_1[81] - p_neg_1[81] - y_chg[81] + y_dis[81]
+   + y_PV[81] + y_WT[81] - y_curt_PV[81] - y_curt_WT[81] - y_load[81]
+   + y_pc[81] + y_wc[81] = -218.4387349058006
+ c_power_balance_eq[82]: p_pos_1[82] - p_neg_1[82] - y_chg[82] + y_dis[82]
+   + y_PV[82] + y_WT[82] - y_curt_PV[82] - y_curt_WT[82] - y_load[82]
+   + y_pc[82] + y_wc[82] = -165
+ c_power_balance_eq[83]: p_pos_1[83] - p_neg_1[83] - y_chg[83] + y_dis[83]
+   + y_PV[83] + y_WT[83] - y_curt_PV[83] - y_curt_WT[83] - y_load[83]
+   + y_pc[83] + y_wc[83] = -165
+ c_power_balance_eq[84]: p_pos_1[84] - p_neg_1[84] - y_chg[84] + y_dis[84]
+   + y_PV[84] + y_WT[84] - y_curt_PV[84] - y_curt_WT[84] - y_load[84]
+   + y_pc[84] + y_wc[84] = -165
+ c_power_balance_eq[85]: p_pos_1[85] - p_neg_1[85] - y_chg[85] + y_dis[85]
+   + y_PV[85] + y_WT[85] - y_curt_PV[85] - y_curt_WT[85] - y_load[85]
+   + y_pc[85] + y_wc[85] = -228.1994948290246
+ c_power_balance_eq[86]: p_pos_1[86] - p_neg_1[86] - y_chg[86] + y_dis[86]
+   + y_PV[86] + y_WT[86] - y_curt_PV[86] - y_curt_WT[86] - y_load[86]
+   + y_pc[86] + y_wc[86] = -224.6888956961519
+ c_power_balance_eq[87]: p_pos_1[87] - p_neg_1[87] - y_chg[87] + y_dis[87]
+   + y_PV[87] + y_WT[87] - y_curt_PV[87] - y_curt_WT[87] - y_load[87]
+   + y_pc[87] + y_wc[87] = -165
+ c_power_balance_eq[88]: p_pos_1[88] - p_neg_1[88] - y_chg[88] + y_dis[88]
+   + y_PV[88] + y_WT[88] - y_curt_PV[88] - y_curt_WT[88] - y_load[88]
+   + y_pc[88] + y_wc[88] = -214.4499528686353
+ c_power_balance_eq[89]: p_pos_1[89] - p_neg_1[89] - y_chg[89] + y_dis[89]
+   + y_PV[89] + y_WT[89] - y_curt_PV[89] - y_curt_WT[89] - y_load[89]
+   + y_pc[89] + y_wc[89] = -211.3465226860019
+ c_power_balance_eq[90]: p_pos_1[90] - p_neg_1[90] - y_chg[90] + y_dis[90]
+   + y_PV[90] + y_WT[90] - y_curt_PV[90] - y_curt_WT[90] - y_load[90]
+   + y_pc[90] + y_wc[90] = -206.2857944982129
+ c_power_balance_eq[91]: p_pos_1[91] - p_neg_1[91] - y_chg[91] + y_dis[91]
+   + y_PV[91] + y_WT[91] - y_curt_PV[91] - y_curt_WT[91] - y_load[91]
+   + y_pc[91] + y_wc[91] = -165
+ c_power_balance_eq[92]: p_pos_1[92] - p_neg_1[92] - y_chg[92] + y_dis[92]
+   + y_PV[92] + y_WT[92] - y_curt_PV[92] - y_curt_WT[92] - y_load[92]
+   + y_pc[92] + y_wc[92] = -208.547194690014
+ c_power_balance_eq[93]: p_pos_1[93] - p_neg_1[93] - y_chg[93] + y_dis[93]
+   + y_PV[93] + y_WT[93] - y_curt_PV[93] - y_curt_WT[93] - y_load[93]
+   + y_pc[93] + y_wc[93] = -203.2552489065695
+ c_power_balance_eq[94]: p_pos_1[94] - p_neg_1[94] - y_chg[94] + y_dis[94]
+   + y_PV[94] + y_WT[94] - y_curt_PV[94] - y_curt_WT[94] - y_load[94]
+   + y_pc[94] + y_wc[94] = -195.7184132678899
+ c_power_balance_eq[95]: p_pos_1[95] - p_neg_1[95] - y_chg[95] + y_dis[95]
+   + y_PV[95] + y_WT[95] - y_curt_PV[95] - y_curt_WT[95] - y_load[95]
+   + y_pc[95] + y_wc[95] = -165
+Bounds
+ p_pos_1[68] free
+ p_pos_1[69] free
+ p_pos_1[70] free
+ p_pos_1[71] free
+ p_pos_1[72] free
+ p_pos_1[73] free
+ p_pos_1[74] free
+ p_pos_1[75] free
+ p_pos_1[76] free
+ p_pos_1[77] free
+ p_pos_1[78] free
+ p_pos_1[79] free
+ p_pos_1[80] free
+ p_pos_1[81] free
+ p_pos_1[82] free
+ p_pos_1[83] free
+ p_pos_1[84] free
+ p_pos_1[85] free
+ p_pos_1[86] free
+ p_pos_1[87] free
+ p_pos_1[88] free
+ p_pos_1[89] free
+ p_pos_1[90] free
+ p_pos_1[91] free
+ p_pos_1[92] free
+ p_pos_1[93] free
+ p_pos_1[94] free
+ p_pos_1[95] free
+ y_chg[88] free
+ y_chg[89] free
+ y_chg[90] free
+ y_chg[92] free
+ y_chg[93] free
+ y_chg[94] free
+ y_chg[95] free
+ y_dis[68] free
+ y_dis[69] free
+ y_dis[70] free
+ y_dis[71] free
+ y_dis[72] free
+ y_dis[73] free
+ y_dis[74] free
+ y_dis[75] free
+ y_dis[76] free
+ y_dis[77] free
+ y_dis[78] free
+ y_dis[79] free
+ y_dis[80] free
+ y_dis[81] free
+ y_dis[82] free
+ y_dis[83] free
+ y_dis[84] free
+ y_dis[85] free
+ y_dis[86] free
+ y_dis[87] free
+ y_dis[91] free
+ SoC[67] free
+ SoC[68] free
+ SoC[69] free
+ SoC[70] free
+ SoC[71] free
+ SoC[72] free
+ SoC[73] free
+ SoC[74] free
+ SoC[75] free
+ SoC[76] free
+ SoC[77] free
+ SoC[78] free
+ SoC[79] free
+ SoC[80] free
+ SoC[81] free
+ SoC[82] free
+ SoC[83] free
+ SoC[84] free
+ SoC[85] free
+ SoC[86] free
+ SoC[87] free
+ SoC[88] free
+ SoC[89] free
+ SoC[90] free
+ SoC[91] free
+ SoC[92] free
+ SoC[93] free
+ SoC[94] free
+ SoC[95] free
+ y_PV[68] free
+ y_PV[69] free
+ y_PV[70] free
+ y_PV[71] free
+ y_PV[72] free
+ y_PV[73] free
+ y_PV[74] free
+ y_PV[75] free
+ y_PV[76] free
+ y_PV[77] free
+ y_PV[78] free
+ y_PV[79] free
+ y_PV[80] free
+ y_PV[81] free
+ y_PV[82] free
+ y_PV[83] free
+ y_PV[84] free
+ y_PV[85] free
+ y_PV[86] free
+ y_PV[87] free
+ y_PV[88] free
+ y_PV[89] free
+ y_PV[90] free
+ y_PV[91] free
+ y_PV[92] free
+ y_PV[93] free
+ y_PV[94] free
+ y_PV[95] free
+ y_WT[68] free
+ y_WT[69] free
+ y_WT[70] free
+ y_WT[71] free
+ y_WT[72] free
+ y_WT[73] free
+ y_WT[74] free
+ y_WT[75] free
+ y_WT[76] free
+ y_WT[77] free
+ y_WT[78] free
+ y_WT[79] free
+ y_WT[80] free
+ y_WT[81] free
+ y_WT[82] free
+ y_WT[83] free
+ y_WT[84] free
+ y_WT[85] free
+ y_WT[86] free
+ y_WT[87] free
+ y_WT[88] free
+ y_WT[89] free
+ y_WT[90] free
+ y_WT[91] free
+ y_WT[92] free
+ y_WT[93] free
+ y_WT[94] free
+ y_WT[95] free
+ y_curt_PV[68] free
+ y_curt_PV[69] free
+ y_curt_PV[70] free
+ y_curt_PV[71] free
+ y_curt_PV[72] free
+ y_curt_PV[73] free
+ y_curt_PV[74] free
+ y_curt_PV[75] free
+ y_curt_PV[76] free
+ y_curt_PV[77] free
+ y_curt_PV[78] free
+ y_curt_PV[79] free
+ y_curt_PV[80] free
+ y_curt_PV[81] free
+ y_curt_PV[82] free
+ y_curt_PV[83] free
+ y_curt_PV[84] free
+ y_curt_PV[85] free
+ y_curt_PV[86] free
+ y_curt_PV[87] free
+ y_curt_PV[88] free
+ y_curt_PV[89] free
+ y_curt_PV[90] free
+ y_curt_PV[91] free
+ y_curt_PV[92] free
+ y_curt_PV[93] free
+ y_curt_PV[94] free
+ y_curt_PV[95] free
+ y_curt_WT[68] free
+ y_curt_WT[69] free
+ y_curt_WT[70] free
+ y_curt_WT[71] free
+ y_curt_WT[72] free
+ y_curt_WT[73] free
+ y_curt_WT[74] free
+ y_curt_WT[75] free
+ y_curt_WT[76] free
+ y_curt_WT[77] free
+ y_curt_WT[78] free
+ y_curt_WT[79] free
+ y_curt_WT[80] free
+ y_curt_WT[81] free
+ y_curt_WT[82] free
+ y_curt_WT[83] free
+ y_curt_WT[84] free
+ y_curt_WT[85] free
+ y_curt_WT[86] free
+ y_curt_WT[87] free
+ y_curt_WT[88] free
+ y_curt_WT[89] free
+ y_curt_WT[90] free
+ y_curt_WT[91] free
+ y_curt_WT[92] free
+ y_curt_WT[93] free
+ y_curt_WT[94] free
+ y_curt_WT[95] free
+ y_load[68] free
+ y_load[69] free
+ y_load[70] free
+ y_load[71] free
+ y_load[72] free
+ y_load[73] free
+ y_load[74] free
+ y_load[75] free
+ y_load[76] free
+ y_load[77] free
+ y_load[78] free
+ y_load[79] free
+ y_load[80] free
+ y_load[81] free
+ y_load[82] free
+ y_load[83] free
+ y_load[84] free
+ y_load[85] free
+ y_load[86] free
+ y_load[87] free
+ y_load[88] free
+ y_load[89] free
+ y_load[90] free
+ y_load[91] free
+ y_load[92] free
+ y_load[93] free
+ y_load[94] free
+ y_load[95] free
+ y_pc[68] free
+ y_pc[69] free
+ y_pc[70] free
+ y_pc[71] free
+ y_pc[72] free
+ y_pc[73] free
+ y_pc[74] free
+ y_pc[75] free
+ y_pc[76] free
+ y_pc[77] free
+ y_pc[78] free
+ y_pc[79] free
+ y_pc[80] free
+ y_pc[81] free
+ y_pc[82] free
+ y_pc[83] free
+ y_pc[84] free
+ y_pc[85] free
+ y_pc[86] free
+ y_pc[87] free
+ y_pc[88] free
+ y_pc[89] free
+ y_pc[90] free
+ y_pc[91] free
+ y_pc[92] free
+ y_pc[93] free
+ y_pc[94] free
+ y_pc[95] free
+ y_wc[68] free
+ y_wc[69] free
+ y_wc[70] free
+ y_wc[71] free
+ y_wc[72] free
+ y_wc[73] free
+ y_wc[74] free
+ y_wc[75] free
+ y_wc[76] free
+ y_wc[77] free
+ y_wc[78] free
+ y_wc[79] free
+ y_wc[80] free
+ y_wc[81] free
+ y_wc[82] free
+ y_wc[83] free
+ y_wc[84] free
+ y_wc[85] free
+ y_wc[86] free
+ y_wc[87] free
+ y_wc[88] free
+ y_wc[89] free
+ y_wc[90] free
+ y_wc[91] free
+ y_wc[92] free
+ y_wc[93] free
+ y_wc[94] free
+ y_wc[95] free
+End
